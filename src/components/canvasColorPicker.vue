@@ -1,5 +1,5 @@
 <template>
-    <div class="inputSlider">
+    <div class="canvasColorPicker">
         canvas
     </div>
 </template>
