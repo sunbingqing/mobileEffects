@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import css from './assets/css/reset.css'
-import flexible from './assets/js/flexible.js'
+import './assets/css/reset.css'
+import './assets/js/flexible.js'
 
 export default {
   name: 'app',
