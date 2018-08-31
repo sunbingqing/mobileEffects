@@ -30,6 +30,7 @@ export default {
     color: #333;
 }
 .txt-code{
+    margin: 0.05rem 0;
     background-color: #fbfaf8!important;
     padding: 0 0.05rem;
     border: 1px solid #d6d5d3;
