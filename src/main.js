@@ -5,6 +5,8 @@ import inputSlider from './components/inputSlider.vue'
 import index from './components/index.vue'
 import svgCircleSlider from './components/svgCircleSlider.vue'
 import canvasColorPicker from './components/canvasColorPicker.vue'
+import tempControl from './components/tempControl.vue'
+import croseVerticalSlip from './components/croseVerticalSlip.vue'
 
 Vue.use(VueRouter)
 
@@ -31,6 +33,16 @@ const router = new VueRouter({
       path: '/canvasColorPicker',
       name: 'canvasColorPicker',
       component: canvasColorPicker
+    },
+    {
+      path: '/tempControl',
+      name: 'tempControl',
+      component: tempControl
+    },
+    {
+      path: '/croseVerticalSlip',
+      name: 'croseVerticalSlip',
+      component: croseVerticalSlip
     }
   ]
 })

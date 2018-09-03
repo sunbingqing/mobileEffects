@@ -33,7 +33,7 @@
             <txt is-code>svg {<br>&nbsp;&nbsp;-webkit-transform: rotate(-0.05deg);<br>&nbsp;&nbsp;
     transform: rotate(-0.05deg);<br>}</txt>
         </txt>
-        <txt>接下来就是利用 animation 动画改变 stroke-dasharray 的值。百分比可以利用 setInterval() 来实现。</txt>
+        <txt>3# 接下来就是利用 animation 动画改变 stroke-dasharray 的值。百分比可以利用 setInterval() 来实现。</txt>
     </div>
 </template>
 

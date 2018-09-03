@@ -34,6 +34,16 @@ export default {
           color: colorArr[Math.floor(Math.random()*colorArr.length)],
           name: 'canvasColorPicker'
         },
+        {
+          text: 'touch环形温度控制',
+          color: colorArr[Math.floor(Math.random()*colorArr.length)],
+          name: 'tempControl'
+        },
+        {
+          text: 'touch横滑&竖滑',
+          color: colorArr[Math.floor(Math.random()*colorArr.length)],
+          name: 'croseVerticalSlip'
+        }
       ]
     }
   },
@@ -46,9 +56,7 @@ export default {
   },
   methods: {
     clicked(idx) {
-     console.log(idx); 
      this.$router.push({name: this.content[idx].name})
-     console.log(33)
    }
   }
 }
