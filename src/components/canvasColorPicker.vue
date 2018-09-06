@@ -35,7 +35,7 @@
                 <txt><txt txtColor="#ead0d1">ImageData</txt>保存了该矩形每个像素的信息，即 RGBA 值。可通过 data 属性获得。</txt>
             </txt>
             <txt is-block>7# 结合 input 滑动条，选取对应的颜色值：
-                <txt>input 滑动条选中的值value，赋值到 ctx.getImageData(x, y, width, height) 中的<txt txtColor="#ead0d1">x</txt>上，即可实时获取滑动位置的颜色值了。</txt>
+                <txt>input 滑动条选中的值<txt txtColor="#ead0d1">value</txt>，赋值到 ctx.getImageData(x, y, width, height) 中的<txt txtColor="#ead0d1">x</txt>上，即可实时获取滑动位置的颜色值了。</txt>
             </txt>
         </div>
     </div>
@@ -76,7 +76,6 @@ export default {
             value = value || 50;
             let red,green,blue;
             this.c = document.createElement("canvas"); //canvas画布
-            console.log(this.c,'1')
 
             let ctx = this.c.getContext("2d");
             let grd = ctx.createLinearGradient(0, 0, 100.5, 0);    //开始及结束的坐标：x0,y0,x1,y1,取0.5是为当value=100时，可以取到图片

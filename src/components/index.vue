@@ -43,6 +43,11 @@ export default {
           text: 'touch横滑&竖滑',
           color: colorArr[Math.floor(Math.random()*colorArr.length)],
           name: 'croseVerticalSlip'
+        },
+        {
+          text: 'canvas上传头像',
+          color: colorArr[Math.floor(Math.random()*colorArr.length)],
+          name: 'uploadPic'
         }
       ]
     }

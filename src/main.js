@@ -7,6 +7,7 @@ import svgCircleSlider from './components/svgCircleSlider.vue'
 import canvasColorPicker from './components/canvasColorPicker.vue'
 import tempControl from './components/tempControl.vue'
 import croseVerticalSlip from './components/croseVerticalSlip.vue'
+import uploadPic from './components/uploadPic.vue'
 
 Vue.use(VueRouter)
 
@@ -43,6 +44,11 @@ const router = new VueRouter({
       path: '/croseVerticalSlip',
       name: 'croseVerticalSlip',
       component: croseVerticalSlip
+    },
+    {
+      path: '/uploadPic',
+      name: 'uploadPic',
+      component: uploadPic
     }
   ]
 })
